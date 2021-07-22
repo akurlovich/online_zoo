@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import 'reset-styles';
+@import 'map_body.scss';
+@import './breakpoints/639-320px.scss';
+@import './breakpoints/1199-640px.scss';
+@import './breakpoints/1919-1200px.scss';
+@import '../../../landing/src/scss/header.scss';
+@import '../../../landing/src/scss/breakpoints/header/640-320px.scss';
+@import '../../../landing/src/scss/breakpoints/header/1199-641px.scss';
+@import '../../../landing/src/scss/footer.scss';
+@import '../../../landing/src/scss/breakpoints/footer/640-320px.scss';
+@import '../../../landing/src/scss/breakpoints/footer/1920-981px.scss';
+@import '../../../landing/src/scss/btns.scss';
+@import '../../../landing/src/scss/wrapper.scss';
+@import '../../../landing/src/scss/themes.scss';
+@import '../../../landing/src/scss/slider_scroll.scss';

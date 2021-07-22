@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import 'reset-styles';
+@import 'wrapper.scss';
+@import 'btns.scss';
+@import 'header.scss';
+@import 'body.scss';
+@import 'footer.scss';
+@import 'slider_scroll.scss';
+@import 'popap_body.scss';
+@import 'themes.scss';
+@import './breakpoints/header/1199-641px.scss';
+@import './breakpoints/header/640-320px.scss';
+@import './breakpoints/footer/1920-981px.scss';
+@import './breakpoints/footer/640-320px.scss';
+@import './breakpoints/body/480-320px.scss';
+@import './breakpoints/body/640-481px.scss';
+@import './breakpoints/body/979-640px.scss';
+@import './breakpoints/body/1920-1200px.scss';

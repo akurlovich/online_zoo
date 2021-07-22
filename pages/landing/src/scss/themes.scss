@@ -1,0 +1,19 @@
+:root {
+  --bg-header: #ffffff;
+  --bg-container: #fbfbfb;
+  --bg-container-dark: #f2f2f2;
+  --text-heading: #333333;
+  --text-subheading: #4f4f4f;
+  --slider-item: #FEFEFE;
+  --slider-arrow-right: #333333;
+}
+
+.dark-theme {
+  --bg-header: #333333;
+  --bg-container: #333333;
+  --bg-container-dark: #4f4f4f;
+  --text-heading: #fefefe;
+  --text-subheading: #f2f2f2;
+  --slider-item: #3c3c3c;
+  --slider-arrow-right: #ffffff;
+}

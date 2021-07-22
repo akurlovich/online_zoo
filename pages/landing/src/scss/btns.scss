@@ -1,0 +1,51 @@
+.watch-btn {
+  width: 245px;
+  height: 55px;
+  background: linear-gradient(106.89deg, #4BD8B5 -14.32%, #49D6DF 100.68%);
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: all .3s linear;
+  .watch-btn__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  &:hover {
+    background: var(--bg-header);
+    color: #49D6DF;
+    transition: all .3s linear;
+    border: 2px solid #49D6DF;
+  }
+  &:hover svg circle {
+    stroke: #49D6DF;
+    // fill: #49D6DF;
+    transition: all .3s linear;
+  }
+  &:hover svg path {
+    fill: #EB5757;
+    transition: all .3s linear;
+  }
+}
+.watch-btn_watch-animals {
+  // position: absolute;
+  // top: 40%;
+  // left: 30%;
+}
+.watch-btn_footer {
+  width: 275px;
+  height: 55px;
+}
+.watch-btn__zoos {
+  width: 185px;
+  height: 53px;
+}
+.watch-btn_map {
+  
+}

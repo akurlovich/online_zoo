@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map Online Zoo</title>
+  <!-- <link rel="stylesheet" href="./css/map_main.min.css"> -->
+</head>
+<body>
+  <div class="wrapper">
+    <header id="top-page">
+      <div class="header-container">
+        <div class="logo">
+          <h1>Online Zoo</h1>
+          <h2>
+            <a href="../landing/index.html">
+              <span>zoo</span>
+              <span>online</span>
+            </a>
+          </h2>
+        </div>
+        <nav>
+          <ul>
+            <li><a class="nav-not-active-link" href="../landing/index.html">About</a></li>
+            <li><a class="nav-not-active-link" href="../zoos_page/panda/index.html">Zoos</a></li>
+            <li><a class="nav-active-link" href="./index.html">Map</a></li>
+            <li><a class="nav-not-active-link" href="#footer-contacts">Contact Us</a></li>
+            <li><a class="nav-not-active-link" href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp?node-id=0%3A1" target="_blank">Design</a></li>
+          </ul>
+        </nav>
+        <div class="switch-theme">
+          <div class="switch-theme__switcher"></div>
+        </div>
+        <div class="header-burger">
+          <div class="line-first"></div>
+          <div class="line-second"></div>
+          <div class="line-third"></div>
+        </div>
+      </div>
+    </header>
+    <main class="map">
+      <div class="map__wrapper">
+        <div class="map__container">
+          <div class="map__title">
+            <h2>Choose your favorite</h2>
+            <p>As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat, and we are determined to assist in all aspects, including providing veterinary support and raising much-needed emergency funds. Zoo Online saves wildlife and inspires everyone to make conservation a priority in their lives. Animals have the right to a pain-free and happy life. They have equal claim to the resources of this planet, and deserve a life of dignity and compassion.As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat.</p>
+          </div>
+          <div class="map__slider">
+            <div class="slider__imgs">
+              <div class="imgs__block">
+                <div class="slider__arrow-left">
+                  <img src="./images/left-arrow.svg" alt="previous image">
+                </div>
+                <div class="block__imgs">
+                  <div class="map-slide">
+                    <img class="block__image map-slide-img" id="img_0" src="./images/orangutan_map.png" alt="orangutan">
+                  </div>
+                  <div class="map-slide img__border img__border-map">
+                    <img class="map-slide-img" id="img_1" src="./images/panda-map.png" alt="panda">
+                  </div>
+                  <div class="map-slide">
+                    <img class="block__image map-slide-img" id="img_2" src="./images/crocodile_map.png" alt="crocodile">
+                  </div>
+                  <div class="map-slide">
+                    <img class="block__image block__image--none block__image--none_eagle map-slide-img" id="img_3" src="./images/eagle_map.png" alt="eagle">
+                  </div>
+                  <div class="map-slide">
+                    <img class="block__image block__image--none block__image--none_tiger map-slide-img" id="img_4" src="./images/tigre_map.png" alt="tiger">
+                  </div>
+                  <div class="map-slide">
+                    <img class="block__image block__image--none map-slide-img" id="img_5" src="./images/elephant_map.png" alt="elephant">
+                  </div>
+                  <div class="map-slide">
+                    <img class="block__image block__image--none map-slide-img" id="img_6" src="./images/lion_map.png" alt="lion">
+                  </div>
+                  <div class="map-slide">
+                    <img class="block__image block__image--none map-slide-img" id="img_7" src="./images/zebra_map.png" alt="zebra">
+                  </div>
+                </div>
+                <div class="slider__arrow-right">
+                  <img src="./images/right-arrow.svg" alt="next image">
+                </div>
+              </div>
+              <div class="slider__counter">
+                <div class="slide__current slide-num" id="ms-num">02</div>
+                <div class="slide-num">/</div>
+                <div class="slide__all">08</div>
+              </div>
+              <input class="slider-scroll slider-scroll--pz input-range" id="ms_range" type="range" min="1" max="8" step="1" value="2">
+              <!-- <div class="slider-scroll">
+                <div class="slider-scroll__btn"></div>
+              </div> -->
+            </div>
+            <div class="slider__map">
+              <img class="map-img" src="./images/map.svg" alt="map">
+              <div class="map__label map__label_eagle">
+                <div class="label__svg">
+                  <div title="Eagle">
+                    <svg width="67" height="94" viewBox="0 0 67 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="map-path" d="M33.6825 0C15.4494 0 0.616211 14.835 0.616211 33.0703C0.616211 50.7103 30.8466 90.9006 32.1343 92.6047C32.4961 93.0911 33.0758 93.375 33.6827 93.375C34.2895 93.375 34.8692 93.0911 35.231 92.6047C36.5186 90.9006 66.7491 50.7105 66.7491 33.0703C66.7488 14.835 51.9156 0 33.6825 0ZM33.6825 50.5781C24.031 50.5781 16.1768 42.7229 16.1768 33.0703C16.1768 23.4176 24.031 15.5624 33.6825 15.5624C43.334 15.5624 51.1882 23.4176 51.1882 33.0703C51.1882 42.7229 43.334 50.5781 33.6825 50.5781Z" fill="url(#paint0_linear)"/>
+                      <defs>
+                      <linearGradient id="paint0_linear" x1="-11.732" y1="-4.90899e-07" x2="83.0275" y2="20.3729" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#4BD8B5"/>
+                      <stop offset="1" stop-color="#49D6DF"/>
+                      </linearGradient>
+                      </defs>
+                    </svg>
+                  </div>
+                  <img class="label__img" src="./images/eagle_map.png" alt="" title="Eagle">
+                </div>
+              </div>
+              <div class="map__label map__label_crocodile">
+                <div class="label__svg">
+                  <div title="Alligator">
+                    <svg width="67" height="94" viewBox="0 0 67 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="map-path" d="M33.6825 0C15.4494 0 0.616211 14.835 0.616211 33.0703C0.616211 50.7103 30.8466 90.9006 32.1343 92.6047C32.4961 93.0911 33.0758 93.375 33.6827 93.375C34.2895 93.375 34.8692 93.0911 35.231 92.6047C36.5186 90.9006 66.7491 50.7105 66.7491 33.0703C66.7488 14.835 51.9156 0 33.6825 0ZM33.6825 50.5781C24.031 50.5781 16.1768 42.7229 16.1768 33.0703C16.1768 23.4176 24.031 15.5624 33.6825 15.5624C43.334 15.5624 51.1882 23.4176 51.1882 33.0703C51.1882 42.7229 43.334 50.5781 33.6825 50.5781Z" fill="url(#paint0_linear)"/>
+                      <defs>
+                      <linearGradient id="paint0_linear" x1="-11.732" y1="-4.90899e-07" x2="83.0275" y2="20.3729" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#4BD8B5"/>
+                      <stop offset="1" stop-color="#49D6DF"/>
+                      </linearGradient>
+                      </defs>
+                    </svg>
+                  </div>
+                  <img class="label__img" src="./images/crocodile_map.png" alt="" title="Alligator">
+                </div>
+              </div>
+              <div class="map__label map__label_orangutan">
+                <div class="label__svg">
+                  <div title="Gorilla">
+                    <svg width="67" height="94" viewBox="0 0 67 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="map-path" d="M33.6825 0C15.4494 0 0.616211 14.835 0.616211 33.0703C0.616211 50.7103 30.8466 90.9006 32.1343 92.6047C32.4961 93.0911 33.0758 93.375 33.6827 93.375C34.2895 93.375 34.8692 93.0911 35.231 92.6047C36.5186 90.9006 66.7491 50.7105 66.7491 33.0703C66.7488 14.835 51.9156 0 33.6825 0ZM33.6825 50.5781C24.031 50.5781 16.1768 42.7229 16.1768 33.0703C16.1768 23.4176 24.031 15.5624 33.6825 15.5624C43.334 15.5624 51.1882 23.4176 51.1882 33.0703C51.1882 42.7229 43.334 50.5781 33.6825 50.5781Z" fill="url(#paint0_linear)"/>
+                      <defs>
+                      <linearGradient id="paint0_linear" x1="-11.732" y1="-4.90899e-07" x2="83.0275" y2="20.3729" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#4BD8B5"/>
+                      <stop offset="1" stop-color="#49D6DF"/>
+                      </linearGradient>
+                      </defs>
+                    </svg>
+                  </div>
+                  <img class="label__img" src="./images/orangutan_map.png" alt="" title="Gorilla">
+                </div>
+              </div>
+              <div class="map__label map__label_panda">
+                <div class="label__svg">
+                  <div title="Panda">
+                    <svg width="67" height="94" viewBox="0 0 67 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="map-path" d="M33.6825 0C15.4494 0 0.616211 14.835 0.616211 33.0703C0.616211 50.7103 30.8466 90.9006 32.1343 92.6047C32.4961 93.0911 33.0758 93.375 33.6827 93.375C34.2895 93.375 34.8692 93.0911 35.231 92.6047C36.5186 90.9006 66.7491 50.7105 66.7491 33.0703C66.7488 14.835 51.9156 0 33.6825 0ZM33.6825 50.5781C24.031 50.5781 16.1768 42.7229 16.1768 33.0703C16.1768 23.4176 24.031 15.5624 33.6825 15.5624C43.334 15.5624 51.1882 23.4176 51.1882 33.0703C51.1882 42.7229 43.334 50.5781 33.6825 50.5781Z" fill="url(#paint0_linear)"/>
+                      <defs>
+                      <linearGradient id="paint0_linear" x1="-11.732" y1="-4.90899e-07" x2="83.0275" y2="20.3729" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#4BD8B5"/>
+                      <stop offset="1" stop-color="#49D6DF"/>
+                      </linearGradient>
+                      </defs>
+                    </svg>
+                  </div>
+                  <img class="label__img" src="./images/panda-map.png" alt="" title="Panda">
+                </div>
+              </div>
+            </div>
+            <div class="slider__btn">
+              <!-- <form action="#"> -->
+                <button class="watch-btn watch-btn_map">
+                  <div class="watch-btn__title">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="16" cy="16" r="15.5" stroke="white"/>
+                      <path d="M21 16L13.5 20.3301V11.6699L21 16Z" fill="white"/>
+                    </svg>
+                    watch online
+                  </div>
+                </button>
+              <!-- </form> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+    <footer id="footer-contacts">
+      <div class="footer__conteiner">
+        <div class="footer__contacts">
+          <div class="footer__form">
+            <div class="form_logo">
+              <h2>
+                <a href="../landing/index.html" title="Online Zoo">
+                  <span>zoo</span>
+                  <span>online</span>
+                </a>
+              </h2>
+            </div>
+            <h3>Contact us</h3>
+            <form>
+              <input class="input" type="text" placeholder="Name" required >
+              <input class="input" type="email" placeholder="Email" required >
+              <div class="textarea__field">
+                <fieldset class="fieldset">
+                  <legend class="legend">Please enter your message</legend>
+                  <textarea class="textarea" name="" id="" cols="30" rows="10" maxlength="280" required></textarea>
+                </fieldset>
+              </div>
+              <div class="checkbox">
+                <input class="checkbox__input" type="checkbox" name="checkbox" id="agree" required >
+                <label class="checkbox__label" for="agree">I agree to the processing of Personal Data</label>
+              </div>
+              <div class="footer__send-btn">
+                <button>Send<img src="./images/Arrow_send_icon.svg"></button>
+              </div>
+            </form>
+          </div>
+          <div class="footer__adress">
+            <div class="adress__header">
+              <nav>
+                <ul>
+                  <li><a href="../landing/index.html">About</a></li>
+                  <li><a href="../zoos_page/panda/index.html">Zoos</a></li>
+                  <li><a href="./index.html">Map</a></li>
+                  <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp?node-id=0%3A1" target="_blank">Design</a></li>
+                </ul>
+              </nav>
+              <!-- <form action="#"> -->
+                <button class="watch-btn watch-btn_footer footer-btn">donate for volunteers</button>
+              <!-- </form> -->
+            </div>
+            <div class="adress__text">
+              <p class="adress__title">ZOO Online Centre</p>
+              <address class="adress__main">
+                <div class="adress__contacts">
+                  <p>132, Address District, Street</p>
+                  <p>Open Daily 10:00 am - 5:00 pm</p>
+                </div>
+                <div>
+                  <p>T<a href="tel:(702)163-3433">(702) 163-3433</a></p>
+                  <p><a href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a></p>
+                </div>
+              </address>
+            </div>
+            <div class="footer__socials">
+              <a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram_icon.svg" alt="instagram"></a>
+              <a href="https://web.telegram.org/" target="_blank"><img src="./images/telegram_icon.svg" alt="telegram"></a>
+              <a href="https://www.youtube.com/" target="_blank"><img src="./images/youtube_icon.svg" alt="youtube"></a>
+              <a href="https://vk.com/" target="_blank"><img src="./images/VK_icon.svg" alt="VKontakte"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__line"></div>
+
+        <div class="footer__copyrights">
+          <p>©Noora Sagnayeva</p>
+          <div class="copyrights__text">
+            <p title="Rolling Scopes School">©RSSchool </p><p> and </p><p title="Yem Digital">©Yem Digital - 2021</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

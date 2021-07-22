@@ -1,0 +1,126 @@
+.popap {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.4);
+  .popap__wrapper {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 795px;
+    margin: 30px auto;
+    background-color: #F9F9F9;
+    .popap__container {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      min-height: 795px;
+      .popap-bg {
+        background-image: url(../images/popap_bg.png);
+        max-width: 197px;
+        width: 100%;
+        height: 100%;
+        min-height: 795px;
+      }
+      .popap-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+        h2 {
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 116.5%;
+          text-transform: uppercase;
+          color: #313131;
+        }
+        .popap__form {
+          margin-top: 40px;
+          margin-bottom: 40px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 55px;
+          width: 100%;
+          .form-block {
+            max-width: 335px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            h4 {
+              font-style: normal;
+              font-weight: bold;
+              font-size: 18px;
+              line-height: 116.5%;
+              color: #828282;
+              margin-bottom: 30px;
+            }
+            .block-input {
+              position: relative;
+              margin-bottom: 30px;
+              .input {
+                max-width: 335px;
+                width: 100%;
+                height: 56px;
+                background-color: transparent;
+                border: 1px solid #828282;
+                box-sizing: border-box;
+                border-radius: 5px;
+                padding: 10px;
+              }
+              .label {
+                position: absolute;
+                display: block;
+                background-color: #F9F9F9;
+                padding-left: 18px;
+                padding-right: 18px;
+                top: -7px;
+                left: 7px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 116.5%;
+                color: #828282;
+              }
+              .input-multi {
+                display: flex;
+                gap: 20px;
+                .select-phone {
+                  
+                }
+                .input-phone {
+                  // margin-left: 20px;
+                  border-left: 1px solid #828282;
+                }
+                .select-month {
+                  flex-grow: 1;
+                }
+                .select-year {
+                  flex-grow: 1;
+                  border-left: 1px solid #828282;
+                  padding-left: 20px;
+                }
+              }
+            }
+          }
+        }
+        p {
+          display: block;
+          max-width: 478px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 116.5%;
+          text-align: center;
+          color: #828282;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}
